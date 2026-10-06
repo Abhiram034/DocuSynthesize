@@ -1,8 +1,8 @@
-# 🔬 ResearchHelp-AI Analysis System: Advanced AI Document Research & Publishing System
+# 🔬 DocuSynthesize: Multi-Document Synthesis & Research Paper Generation
 
 ## 📄 Project Overview
 
-ResearchHelp-AI Analysis System is a next-generation, multi-modal document analysis platform that transforms raw files into structured, queryable knowledge bases. By leveraging **semantic embeddings**, **hybrid retrieval (Vector + BM25)**, **LLM streaming**, and **rich multimedia integrations**, it enables deep research Q&A, auto-generated suggestions, and professional academic publishing — all directly from your uploaded files.
+DocuSynthesize turns multiple uploaded documents into a structured, queryable knowledge base. It combines semantic embeddings, hybrid retrieval (Vector + BM25), and local LLMs to support cross-document research Q&A, synthesis, and generation of professional academic papers.
 
 ### ✨ Key Differentiators & Upgrades
 - **100% Local Inference & Total Privacy**: Zero data leaves your machine. Upload confidential documents, patents, and private code bases with complete security.
@@ -16,7 +16,7 @@ ResearchHelp-AI Analysis System is a next-generation, multi-modal document analy
 ---
 
 ## 🧠 Advanced Intent Classification System
-At the heart of ResearchHelp-AI-anaylsis-system is a smart routing engine that categorizes every query before processing. This ensures the correct prompt template, specialized LLM model, and analysis logic are applied.
+At the heart of DocuSynthesize is a smart routing engine that categorizes every query before processing. This ensures the correct prompt template, specialized LLM model, and analysis logic are applied.
 
 | Intent Category | Trigger Example | Local LLM Assigned | Functionality |
 |-----------------|-----------------|--------------------|---------------|
@@ -82,7 +82,7 @@ flowchart TD
 ## 📂 Code & Project Structure
 
 ```
-ResearchHelp_AI_Analysis_system/
+DocuSynthesize/
 ├── app.py                     # Main Streamlit Application UI
 ├── pyproject.toml             # Project configuration (pytest, etc.)
 ├── requirements.txt           # Dependency requirements
@@ -154,8 +154,8 @@ The system is primarily UI-driven, but it communicates heavily with the local Ol
 
 ### 1. Clone & Set Up Virtual Environment
 ```bash
-git clone https://github.com/your-username/ResearchHelp-AI-anaylsis-system.git
-cd ResearchHelp-AI-anaylsis-system
+git clone https://github.com/Abhiram034/DocuSynthesize.git
+cd DocuSynthesize
 python -m venv venv
 # Windows: .\venv\Scripts\Activate  |  macOS/Linux: source venv/bin/activate
 ```
